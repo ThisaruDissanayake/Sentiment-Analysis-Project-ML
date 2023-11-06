@@ -1,5 +1,5 @@
-*{
-    font-family: sans-serif;
+* {
+  font-family: sans-serif;
 }
 
 .split {
@@ -11,7 +11,7 @@
   overflow-x: hidden;
   padding-top: 20px;
 }
-  
+
 .left {
   left: 0;
 }
@@ -20,19 +20,18 @@
   right: 0;
 }
 
-
 .centered {
   position: absolute;
   top: 50%;
   left: 50%;
+  margin-top: 50px;
   transform: translate(-50%, -50%);
   text-align: center;
 }
-  
+
 .centered img {
   width: 100%;
 }
-
 
 textarea {
   width: 100%;
@@ -50,4 +49,16 @@ textarea {
   text-decoration: underline;
   text-underline-position: under;
   cursor: pointer;
+}
+
+.navbar {
+  background-color: rgb(239, 146, 208);
+  padding: 10px;
+  text-align: center;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  text-align: center;
 }
